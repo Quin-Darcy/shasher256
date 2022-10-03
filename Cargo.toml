@@ -1,0 +1,8 @@
+[package]
+name = "shasher256"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4"
+shasher = { git = "https://github.com/Quin-Darcy/shasher", branch = "master"  }
